@@ -31,9 +31,18 @@
         </section>
         <section id="radios">
           <label id="label-family">Qual sua família?</label>
-          <input type="radio" name="family" value="Frontend">Frontend
-          <input type="radio" name="family" value="Backend">Backend
-          <input type="radio" name="family" value="FullStack">FullStack
+          <label for="frontend"><input id="frontend" type="radio" name="family" value="Frontend">Frontend</label>
+          <label for="backend"><input id="backend" type="radio" name="family" value="Backend">Backend</label>
+          <label for="fullstack"><input id="fullstack" type="radio" name="family" value="FullStack">FullStack</label>
+        </section>
+        <section id="checkBox">
+          <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+          <input type="checkbox" class="subject" value="HoFs">HoFs
+          <input type="checkbox" class="subject" value="Jest">
+          <input type="checkbox" class="subject" value="Promises">
+          <input type="checkbox" class="subject" value="React">
+          <input type="checkbox" class="subject" value="SQL">
+          <input type="checkbox" class="subject" value="Python">
         </section>
       </form>  
       <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg"/> 
