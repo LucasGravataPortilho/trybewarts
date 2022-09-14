@@ -2,7 +2,8 @@
     display: flex;
     background-color: rgb(50, 167, 145);
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    margin-bottom: 30px;
 }
 
 .trybewarts-login {
@@ -31,10 +32,18 @@ main {
 
 #junta {
     display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+
+#house {
+    width: 184px;
 }
 
 #casaEemail {
     display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
 }
 
 #radios {
