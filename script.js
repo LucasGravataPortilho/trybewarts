@@ -1,4 +1,5 @@
 function login() {
+  console.log('batata');
   const email = 'tryber@teste.com';
   const coisa = document.querySelector('.email').value;
   if (email === coisa) {
