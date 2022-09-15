@@ -26,3 +26,14 @@ function enviar() {
   }
 }
 document.getElementById('agreement').addEventListener('click', enviar);
+
+const contador = document.getElementById('counter');
+
+function contaLetra() {
+  const tamanhoTexto = document.getElementById('textinho').value.length;
+  contador.innerHTML = 500 - tamanhoTexto;
+}
+
+const textito = document.getElementById('textinho');
+
+textito.addEventListener('keydown', contaLetra);
