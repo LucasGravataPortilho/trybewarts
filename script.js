@@ -30,10 +30,10 @@ document.getElementById('agreement').addEventListener('click', enviar);
 const contador = document.getElementById('counter');
 
 function contaLetra() {
-  const tamanhoTexto = document.getElementById('textinho').value.length;
+  const tamanhoTexto = document.getElementById('textarea').value.length;
   contador.innerHTML = 500 - tamanhoTexto;
 }
 
-const textito = document.getElementById('textinho');
+const textito = document.getElementById('textarea');
 
-textito.addEventListener('keydown', contaLetra);
+textito.addEventListener('keyup', contaLetra);
