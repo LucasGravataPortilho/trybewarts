@@ -31,9 +31,9 @@
         </section>
         <section id="radios">
           <label id="label-family">Qual sua família?</label>
-          <label for="frontend"><input id="frontend" type="radio" name="family" value="Frontend">Frontend</label>
-          <label for="backend"><input id="backend" type="radio" name="family" value="Backend">Backend</label>
-          <label for="fullstack"><input id="fullstack" type="radio" name="family" value="FullStack">FullStack</label>
+          <label for="frontend"><input id="frontend" class="vinDiesel" type="radio" name="family" value="Frontend">Frontend</label>
+          <label for="backend"><input id="backend" class="vinDiesel" type="radio" name="family" value="Backend">Backend</label>
+          <label for="fullstack"><input id="fullstack" class="vinDiesel" type="radio" name="family" value="FullStack">FullStack</label>
         </section>
         <section id="checkBox">
           <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
@@ -46,20 +46,21 @@
         </section>
         <section id="avaliacao">
           <label id="label-rate">Como você avalia a Trybewarts?</label>
-          <label for="one"><input id="one" type="radio" name="rate" value="1">1</label>
-          <label for="two"><input id="two" type="radio" name="rate" value="2">2</label>
-          <label for="three"><input id="three" type="radio" name="rate" value="3">3</label>
-          <label for="four"><input id="four" type="radio" name="rate" value="4">4</label>
-          <label for="five"><input id="five" type="radio" name="rate" value="5">5</label>
-          <label for="six"><input id="six" type="radio" name="rate" value="6">6</label>
-          <label for="seven"><input id="seven" type="radio" name="rate" value="7">7</label>
-          <label for="eight"><input id="eight" type="radio" name="rate" value="8">8</label>
-          <label for="nine"><input id="nine" type="radio" name="rate" value="9">9</label>
-          <label for="ten"><input id="ten" type="radio" name="rate" value="10">10</label>
+          <label for="one"><input id="one" class="redondo" type="radio" name="rate" value="1">1</label>
+          <label for="two"><input id="two" class="redondo" type="radio" name="rate" value="2">2</label>
+          <label for="three"><input id="three" class="redondo" type="radio" name="rate" value="3">3</label>
+          <label for="four"><input id="four" class="redondo" type="radio" name="rate" value="4">4</label>
+          <label for="five"><input id="five" class="redondo" type="radio" name="rate" value="5">5</label>
+          <label for="six"><input id="six" class="redondo" type="radio" name="rate" value="6">6</label>
+          <label for="seven"><input id="seven" class="redondo" type="radio" name="rate" value="7">7</label>
+          <label for="eight"><input id="eight" class="redondo" type="radio" name="rate" value="8">8</label>
+          <label for="nine"><input id="nine" class="redondo" type="radio" name="rate" value="9">9</label>
+          <label for="ten"><input id="ten" class="redondo" type="radio" name="rate" value="10">10</label>
         </section>
         <section>
           <label class="textarea">Deixe seu comentário:</label>
-          <textarea maxlength="500"></textarea>
+          <textarea id="textarea" maxlength="500"></textarea>
+          <div id="counter">500</div>
         </section>
         <section id="termos">
           <label id="label-infos">Você concorda com o uso das informações acima?</label>
@@ -67,6 +68,15 @@
         </section>
         <button type="submit" id="submit-btn">Enviar</button>
       </form>  
+      <form id="form-data">
+        <div id="nomeForm"></div>
+        <div id="emailForm"></div>
+        <div id="casaForm"></div>
+        <div id="familyForm"></div>
+        <div id="materiasForm"></div>
+        <div id="avalForm"></div>
+        <div id="obsForm"></div>
+      </form> 
       <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg"/> 
       </main>
       <footer>Direitos reservados à Trybewarts©</footer>
